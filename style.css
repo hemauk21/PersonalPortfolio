@@ -1,11 +1,16 @@
 /* defines a global custom property */
 :root {
   --bg-blue: #45567d;
-  --bg-red: rgb(144, 0, 0);
+  --bg-red: rgb(144, 0, 0);  
   --bg-grey: rgba(48, 48, 48, 0.3);
   --font-color-white: #f2f2f2;
 }
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
 
+  }
 ul {
   /* Set liststyle,margin and padding to remove default style for the ul */
   list-style-type: none;
@@ -14,9 +19,7 @@ ul {
   display: flex;
   margin-right: 32px;
 }
-body{
-    margin:0;
-}
+
 .nav-bar-cls {
   display: flex;
   justify-content: flex-end;
@@ -35,9 +38,19 @@ body{
   padding: 20px 15px;
   font-size: 22px;
 }
-h1,
-p {
+h1 {
+
   color: var(--font-color-white);
+  font-size: 50px;
+  margin: 0;
+}
+p {
+ 
+  color: var(--font-color-white);
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  font-style: italic; 
+  font-size: 25px;
+  margin: 0;
 }
 #welcome-section {
   width: 100%;
@@ -51,9 +64,40 @@ p {
   background-color: var(--bg-blue);
 }
 #projects {
-  width: 100%;
-  height: 100%;
+  
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
   background-color: var(--bg-grey);
+}
+/* css margin applies to all img tags under projects-section */
+img {
+  margin:6px;
+  width:400px;
+  height:300px;
+  border:2px solid;
+  border-radius: 10px;
+  border-color: rgba(100, 100, 100,0.6);
+  
+ 
+}
+figure{
+ padding:0;
+ margin:0;
+ 
+}
+figcaption{
+  padding: 10px;
+  margin: 5px;
+ border:none;
+ border-radius: 10px;
+ border-color:white;
+ background-color: rgba(100, 100, 100,0.6);
+ text-align: center;
+ 
+}
+#projectDiv{
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top:100px;
 }
