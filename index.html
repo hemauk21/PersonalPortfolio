@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20bfe94ae9.js"></script>
     <title>
         personal portfolio
     </title>
@@ -11,54 +12,73 @@
 
 <body>
     <div class="nav-bar-cls">
-    <nav id="navbar">
-        <ul>
-            <li> <a href="#welcome-section">About</a> </li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact-section">Contact</a></li>
-        </ul>
-    </nav>
-</div>
+        <nav id="navbar">
+            <ul>
+                <li> <a href="#welcome-section">About</a> </li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <section id="welcome-section">
         <h1>Hey I am Hema</h1>
         <p>a full stack developer</p>
-      
+
     </section>
     <section id="projects">
         <h2>These are some of my projects</h2>
-        <div id="projectDiv">
-          
-        <figure>
-            <a href="https://codepen.io/hemauk21/full/JjYYxEM" target="_blank">
-            <img src="TributePage.PNG" alt="TributePageImage">
-        </a>
-            <figcaption>
-                Tribute Page
-            </figcaption>
-        </figure>
-    
-        <figure>
-            <a href="https://codepen.io/hemauk21/full/vYLZNmd" target="_blank">
-            <img src="TechnicalDoc.PNG" alt="TechnicalDocImage"></a>
-            <figcaption> Techincal Documentation</figcaption>
-        </figure>
-        <figure>
-            <a href="https://codepen.io/hemauk21/full/abvwMag" target="_blank">
-            <img src="SurveyForm.PNG" alt="SurveyFormImage"></a>
-            <figcaption>Survey Form</figcaption>
-        </figure>
-        <figure>
-            <a href="https://codepen.io/hemauk21/full/RwrrvYr" target="_blank">
-            <img src="productLandingPage.PNG" alt="ProductLandingImage"></a>
-            <figcaption>Product Landing Page</figcaption>
-        </figure>
-    </div>
-    <button class="button">Show All</button>
+        <div id="projectDiv" class="project-tile">
+
+            <figure>
+                <a href="https://codepen.io/hemauk21/full/JjYYxEM" target="_blank">
+                    <img src="TributePage.PNG" alt="TributePageImage">
+
+                    <figcaption>
+                        Tribute Page
+                    </figcaption>
+                </a>
+            </figure>
+
+            <figure>
+                <a href="https://codepen.io/hemauk21/full/vYLZNmd" target="_blank">
+                    <img src="TechnicalDoc.PNG" alt="TechnicalDocImage">
+                    <figcaption> Techincal Documentation</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="https://codepen.io/hemauk21/full/abvwMag" target="_blank">
+                    <img src="SurveyForm.PNG" alt="SurveyFormImage">
+                    <figcaption>Survey Form</figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="https://codepen.io/hemauk21/full/RwrrvYr" target="_blank">
+                    <img src="productLandingPage.PNG" alt="ProductLandingImage">
+                    <figcaption>Product Landing Page</figcaption>
+                </a>
+            </figure>
+        </div>
+        <div id="show-all-div">
+            <a href="https://github.com/hemauk21" id="profile-link" class="btn" target="_blank">Show All</a>
+        </div>
     </section>
     <section id="contact-section">
+        <h3 id="contact-hd">
+            Let's Work Together...
+        </h3>
+        <div id="contact-div">
 
+            <a href="https://github.com/hemauk21" class="btn" target="_blank"><i
+                    class="fab fa-github-square fa-lg"></i>&nbsp;GitHub</a>
+            <a href="https://www.linkedin.com/in/askhema/" class="btn" target="_blank"><i
+                    class="fab fa-linkedin fa-lg"></i>&nbsp;LinkedIn</a>
+            <!-- <a href="https://github.com/hemauk21"  class="btn" target="_blank"><i class="fas fa-envelope-square fa-lg"></i>Gmail</a> -->
+            <a href="https://twitter.com/hemauk21" class="btn" target="_blank"><i
+                    class="fab fa-twitter-square fa-lg"></i>&nbsp;Twitter</a>
+
+        </div>
     </section>
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
